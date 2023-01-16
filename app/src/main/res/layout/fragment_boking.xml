@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    tools:context=".boking">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="240dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/yuk" />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="83dp"
+            android:src="@drawable/logo" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="142dp"
+            android:hint="Nama Lengkap"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="195dp"
+            android:hint="Tanggal Booking"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:hint="Jumlah Room"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="302dp"
+            android:hint="Tanggal Check-in"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="347dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="354dp"
+            android:hint="Tanggal Check-out"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="407dp"
+            android:hint="Nomor HP"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="457dp"
+            android:hint="Dewasa"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="202dp"
+            android:background="@drawable/boxboking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="457dp"
+            android:hint="Anak-Anak"
+            android:textColorHint="#5A5A5A"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="225dp"
+            android:text="back"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_booking"/>/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="52dp"
+            android:text="done"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_booking"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="685dp"
+        android:background="@drawable/menu"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="330dp"
+                        android:background="#F0EDED"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/user" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="40dp"
+                        android:text="User" />
+
+                </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:background="#F0EDED"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/pay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="226dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Pay" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="124dp"
+                android:background="#F0EDED"
+                android:paddingTop="10dp"
+                android:src="@drawable/camp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="40dp"
+                android:text="Glamping" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0EDED"
+            android:paddingLeft="33dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="Home" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

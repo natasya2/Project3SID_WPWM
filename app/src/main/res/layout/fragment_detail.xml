@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="425dp"
+        android:text="Information"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="433dp"
+        android:layout_height="240dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/glamping" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="250dp"
+        android:text="Jenggala"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/star1" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/star1" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/star1" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/star1" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/star1" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="278dp"
+        android:text="4.9"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="255dp"
+        android:text="IDR 450.000/night"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="116dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="278dp"
+        android:hint="1-2 Persons"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="325dp"
+        android:text="Facility"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="357dp"
+            android:src="@drawable/kopi" />
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="350dp"
+            android:src="@drawable/parking" />
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/wifi" />
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/masjid" />
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/fire" />
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/wc" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="385dp"
+            android:text="Toilet"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="282dp"
+            android:layout_marginTop="385dp"
+            android:text="Camp Fire"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="385dp"
+            android:text="Musholla"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="385dp"
+            android:text="WiFi"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="385dp"
+            android:text="Parking"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="385dp"
+            android:text="Breakfast"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <View
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="250dp"
+            android:elevation="45dp"
+            android:background="@drawable/info" />
+        <View
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="250dp"
+            android:elevation="15dp"
+            android:background="@drawable/info" />
+        <View
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="225dp"
+            android:elevation="25dp"
+            android:background="@drawable/info" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-In"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#716D6D"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After 12 PM"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textColor="#716D6D"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="115dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Check-Out"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       android:textColor="#716D6D"
+       android:layout_marginTop="475dp"
+       android:layout_marginLeft="245dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Before 12 PM"
+       android:textSize="12dp"
+       android:textStyle="normal"
+       android:textColor="#716D6D"
+       android:layout_marginTop="495dp"
+       android:layout_marginLeft="320dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="525dp"
+            android:text="Comment"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <View
+                android:layout_width="375dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="560dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/komen"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="30dp"
+            android:text="Type Here..."/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="685dp"
+        android:background="@drawable/menu"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="330dp"
+                        android:background="#F0EDED"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/user" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="40dp"
+                        android:text="User" />
+
+                </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:background="#F0EDED"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/pay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="226dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Pay" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="124dp"
+                android:background="#F0EDED"
+                android:paddingTop="10dp"
+                android:src="@drawable/camp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="40dp"
+                android:text="Glamping" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0EDED"
+            android:paddingLeft="33dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="Home" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

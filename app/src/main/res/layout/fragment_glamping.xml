@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".glamping">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/logo" />
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/cari"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/find"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="cari apa nih?"
+        android:textColorHint="#BDB8B8"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mic"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="80dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="685dp"
+            android:background="@drawable/menu"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="330dp"
+                            android:background="#F0EDED"
+                            android:onClick="user"
+                            android:paddingTop="10dp"
+                            android:src="@drawable/user" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="330dp"
+                            android:layout_marginTop="40dp"
+                            android:text="User" />
+
+                    </RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="220dp"
+                        android:background="#F0EDED"
+                        android:onClick="pay"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/pay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="226dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Pay" />
+                </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="124dp"
+                    android:background="#F0EDED"
+                    android:onClick="glamping"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/camp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Glamping" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F0EDED"
+                android:onClick="home"
+                android:paddingLeft="33dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Home" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
